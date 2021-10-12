@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namePrefix: kustomize-
+
+resources:
+- 01-namespace.yaml
+- 20-deployable-common.yaml
+- 21-deployable-frontweb.yaml
+- 22-deployable-user.yaml
+- 23-deployable-loan.yaml
+- 24-deployable-loanprocessor.yaml
+- 25-deployable-creditscore.yaml
+- 26-deployable-customerprofile.yaml
+- 27-deployable-openbanking.yaml
+- 29-deployable-bigbank.yaml
+- 30-deployable-greatbank.yaml
