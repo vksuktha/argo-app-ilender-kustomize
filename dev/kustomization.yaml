@@ -6,3 +6,4 @@
   namespace: ilender-dev-ns
   patches:
     - replica_count.yaml
+    - namespace.yaml
