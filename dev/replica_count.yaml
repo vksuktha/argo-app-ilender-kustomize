@@ -4,4 +4,4 @@ metadata:
 # change the name 
   name: ilender-loan
 spec:
-  replicas: 3
+  replicas: 2
