@@ -4,5 +4,7 @@
   bases:
     -  ../base
   
+  namespace: ilender-dev-ns
+  
   patches:
     - replica_count.yaml
