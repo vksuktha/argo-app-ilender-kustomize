@@ -3,6 +3,8 @@
   
   bases:
     - ../../base
+    
+  namespace: ilender-prod-ns
 
   patches:
     - replica_count.yaml
