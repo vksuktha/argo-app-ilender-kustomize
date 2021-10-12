@@ -6,4 +6,3 @@
   
   patches:
     - replica_count.yaml
-    - namespace.yaml
