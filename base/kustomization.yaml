@@ -4,7 +4,6 @@ kind: Kustomization
 namePrefix: kustomize-
 
 resources:
-- 01-namespace.yaml
 - 20-deployable-common.yaml
 - 21-deployable-frontweb.yaml
 - 22-deployable-user.yaml
