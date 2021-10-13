@@ -2,7 +2,7 @@
   kind: Kustomization
   
   bases:
-    - ../../base
+    - ../base
     
   namespace: ilender-prod-ns
 
