@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ilender-app
+  name: ilender-app-prod
   namespace: openshift-gitops
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: dev
+    path: prod
     repoURL: https://github.com/vksuktha/argo-app-ilender-kustomize
     targetRevision: HEAD
   syncPolicy:
